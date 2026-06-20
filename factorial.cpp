@@ -11,7 +11,7 @@ int main() {
     if (number < 0) {
         cout << "Factorial is not defined for negative numbers.";
     } else {
-        for (int i = 1; i <= number-2; i++) {
+        for (int i = 1; i <= number; i--) {
             factorial *= i;
         }
 
